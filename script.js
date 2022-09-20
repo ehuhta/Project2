@@ -1,3 +1,6 @@
+
+
+
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
@@ -17,3 +20,7 @@ function pad(val) {
     return valString;
   }
 }
+
+
+let undoButton = document.getElementById("undo");
+undoButton.addEventListener('click', handleUndo)

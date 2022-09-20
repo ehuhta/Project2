@@ -21,21 +21,26 @@
 
             <input type="radio" id="hard" name="level" value="hard">
             <label for="hard">hard</label>
-        </div>
-    </fieldset>
-    <label id="minutes">00</label>:<label id="seconds">00</label>
-        
-    
-    <div id="sudoku-board">
-        <br>
-        <div id="numbers">
 
-        </div>
+           
+    </fieldset>
+    
+        <div id="timer"></div>
+        <label id="minutes">00</label>:<label id="seconds">00</label>
     </div>
+    
 </header>
 <body>
-    <table id="grid">
+    <div class="sudoku-board">
+        <div id="puzzle" class="puzzle"></div>
+        <button type="button" id="solve-button" class="solve-button">Solve</button>
+        <button type="button" id="clear-button" class="clear-button">Clear</button>
+    </div>    
+    </div>
+       
     <script src="script.js"></script>  
+    <script src="board.js"></script>
+    
                    
 </body>
 </html>
