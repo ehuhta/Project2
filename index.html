@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<header>
+    <fieldset>
+        <legend>Choose difficulty level:</legend>
+        <div>
+            <input type="radio" id="easy" name="level" value="easy">
+            <label for="easy">easy</label>
+
+            <input type="radio" id="medium" name="level" value="medium">
+            <label for="medium">medium</label>
+
+            <input type="radio" id="hard" name="level" value="hard">
+            <label for="hard">hard</label>
+
+           
+    </fieldset>
+    
+        <div id="timer"></div>
+        <label id="minutes">00</label>:<label id="seconds">00</label>
+    </div>
+    
+</header>
+<body>
+    <div class="sudoku-board">
+        <div id="puzzle" class="puzzle"></div>
+        <button type="button" id="solve-button" class="solve-button">Solve</button>
+        <button type="button" id="clear-button" class="clear-button">Clear</button>
+    </div>    
+    </div>
+       
+    <script src="script.js"></script>  
+    <script src="board.js"></script>
+    
+                   
+</body>
+</html>
