@@ -1,0 +1,29 @@
+p,
+label {
+  font: 1 rem "Fira Sans", sans-serif;
+}
+fieldset {
+  display: inline-block;
+  width: 0;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+legend {
+  max-width: 50vw;
+}
+
+legend span {
+  display: inline-block;
+  width: calc(100%-100px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+
+
